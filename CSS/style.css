@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: Open Sans, Helvetica Neue, sans-serif;
+    font-size: 1.6rem;
+}
+
+<style>
+/* Estilos para el cuerpo */
+body {
+  background: url(https://i.pinimg.com/564x/8c/b8/51/8cb851d260d5a412e55b67af28dc3fce.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 19px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  header {
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+}
+
+header img {
+  width: 300px;
+  /* Cambiar el ancho de la imagen */
+  height: 200px;
+  /* Cambiar la altura de la imagen */
+  border-radius: 15%;
+  /* Agregar bordes redondos */
+}
+
+/* Estilo para el encabezado */
+header {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 22px;
+}
+
+header ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10;
+  font-size: 23px;
+}
+
+/* Estilos para los elementos de lista */
+header li {
+  display: inline;
+  margin-right: 20 px;
+}
+
+/* Estilos generales para los encabezados de seccion */
+.encabezado-seccion {
+  color: #fff;
+  margin-bottom: 11px;
+  font-size: 25px;
+}
+
+/* Titulo inicio */
+h1 {
+  text-align: center;
+}
+
+/* Subtitulos */
+h2 {
+  padding: 20px;
+}
+
+/* Estilos para los párrafos */
+.parrafo {
+  color: #fff;
+  font-size: 19px;
+  line-height: 2.5;
+}
+
+/* Estilos para la lista de proyectos */
+.lista-proyectos {
+  list-style: none;
+  margin: 1;
+  padding: 1;
+}
+
+/* Estilos para los enlaces */
+a {
+  color: #8758f2;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Estilos para las secciones */
+section {
+  width: 100%;
+}
+</style>
