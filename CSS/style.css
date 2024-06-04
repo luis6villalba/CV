@@ -21,10 +21,22 @@ body {
 .container-div-nav {
     display: flex;
     justify-content: space-between;
-    list-style: none;
     align-items: flex-end;
     padding: 15px;
 }
+
+.navbar-nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-item {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 10px;
+}
+
 /* Estilos para el cuerpo */
 body {
   background: url(https://i.pinimg.com/564x/8c/b8/51/8cb851d260d5a412e55b67af28dc3fce.jpg) no-repeat center center fixed;
