@@ -15,7 +15,15 @@ body {
 }
 
 .navbar {
-    background-color: rgb(247, 119, 172);
+    background-color: rgb(61, 58, 58);
+}
+
+.container-div-nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: flex-end;
+    padding: 15px;
 }
 /* Estilos para el cuerpo */
 body {
