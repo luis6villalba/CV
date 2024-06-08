@@ -133,8 +133,82 @@ button {
 }
 
 .navbar-light .navbar-toggler-icon {
+  width: 30px;
+  height: 30px;
+  stroke: rgba(280, 0, 0, 0.5); 
+  stroke-linecap: round; 
+  stroke-miterlimit: 10;
+  stroke-width: 2;
   background-image: url(data:https://github.com/luis6villalba/CV/blob/main/pics/icono_menu.png);
 }
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+  background-color: initial;
+}
+
+.collapse:not(.show) {
+  display: none;
+}
+
+.navbar-collapse {
+  display: -ms-flexbox!important;
+  display: flex!important;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.navbar-nav {
+  list-style-image: initial;
+}
+
+.ml-auto, .mx-auto {
+  margin-left: auto!important;
+}
+
+.navbar-nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(248, 246, 244, 0.9);
+}
+
+.navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+
+
+
+
 
 
 
