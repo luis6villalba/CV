@@ -133,7 +133,7 @@ button {
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url(blob:https//github.com/luis6villalba/CV/pics/icono_menu.png);
+  background-image: url(data:https://github.com/luis6villalba/CV/blob/main/pics/icono_menu.png);
 }
 
 
