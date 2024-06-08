@@ -1,28 +1,152 @@
-* {
+*, ::after, ::before {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    overflow-x: hidden;
-    font-family: Open Sans, Helvetica Neue, sans-serif;
-    font-size: 1.6rem;
+  overflow-x: hidden;
+  font-family: Open Sans, Helvetica Neue, sans-serif;
+  font-size: 1.6rem;
+}
+
+#services, #contact {
+  background-color: aquamarine;
+
 }
 
 .navbar {
-    background-color: rgb(61, 58, 58);
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background-color: rgb(243, 168, 199);
 }
 
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.py-3 {
+  padding-top: 1rem!important;
+  padding-bottom: 1rem!important;
+}
+
+.navbar .container, .navbar .container-fluid, .navbar .container-lg, .navbar .container-md, .navbar .container-sm, .navbar .container-xl {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+  color: rgba(248, 246, 244, 0.9);
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.6rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.navbar-brand:focus, .navbar-brand:hover {
+  text-decoration: none;
+  text-decoration-color: initial;
+}
+
+a {
+  color: rgb(88, 179, 254);
+  text-decoration: none;
+  text-decoration-color: initial;
+  background-color: transparent;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(248, 246, 244, 0.5);
+  border-color: rgba(159, 150, 138, 0.1);
+}
+
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled), button:not(:disabled) {
+  cursor: pointer;
+}
+
+.navbar-toggler {
+  padding: .25rem .75rem;
+  font-size: 1.6rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+
+[type=button], [type=reset], [type=submit], button {
+  appearance: button;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font-family: Open Sans, Helvetica Neue, sans-serif;
+}
+
+button {
+  border-radius: 0;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(data:)
+}
+
+
+
+
+
+
+
 .container-div-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 15px;
 }
 
 .navbar-nav{
