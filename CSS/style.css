@@ -1,36 +1,90 @@
-*, ::after, ::before {
+*, ::after, ::before{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-html {
+html{
   font-size: 62.5%;
 }
 
-body {
+body{
   overflow-x: hidden;
   font-family: Open Sans, Helvetica Neue, sans-serif;
   font-size: 1.6rem;
 }
 
-#services, #contact {
+#services, #contact{
   background-color: aquamarine;
 
 }
 
-.navbar {
+.navbar{
   width: 320px;
 }
 
-.list {
-  width: 100%;
+.nav__link{
+  color: #fff;
+  display: block;
+  padding: 5px 0;
+  text-decoration: none;
 }
 
+.nav__link--inside{
+  border-radius: 6px;
+  padding-left: 20px;
+}
 
+.nav__link--inside:hover{
+  background: #f6f8fa;
+}
 
+.list{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 16px 16px 16px 16px;
+  background: #fff;
+}
 
+.list__item{
+  list-style: none;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
 
+.list__item--click{
+  cursor: pointer;
+}
+
+.list__button{
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.arrow .list__arrow{
+  transform: rotate(90deg);
+}
+
+.list__arrow{
+  margin-left: auto;
+  transition: transform .3s;
+}
+
+.list__show{
+  width: 80%;
+  margin-left: auto;
+  border-left: 2px solid #303440;
+  list-style: none;
+  transition: height .4s;
+  height: 0;
+}
 
 
 
