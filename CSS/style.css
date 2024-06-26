@@ -33,6 +33,7 @@ body{
 .nav__link--inside{
   border-radius: 6px;
   padding-left: 20px;
+  text-align: left;
 }
 
 .nav__link--inside:hover{
