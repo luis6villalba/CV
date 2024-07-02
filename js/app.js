@@ -39,7 +39,7 @@
         if(window.innerWidth > 678){
             deleteStyleHeight();
             if(list.classList.contains('navbar__links--show'))
-                list.classList.remove('menu__links--show');
+                list.classList.remove('navbar__links--show');
 
         }else{
             addClick();

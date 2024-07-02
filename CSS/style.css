@@ -28,6 +28,7 @@ body{
 .navbar{
   height: 100%;
   display: flex;
+  justify-content: space-between;
 }
 
 .navbar__container{
@@ -115,8 +116,10 @@ body{
 .navbar__hamburger{
   height: 100%;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 0 15px;
+  padding-right: 5px;
   cursor: pointer;
   display: none;
 }
@@ -157,6 +160,7 @@ body{
       overflow-y:auto;
       display: grid;
       grid-auto-rows: max-content;
+      transform: translateX(100%);
     }
 
     .navbar__links--show{
