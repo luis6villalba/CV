@@ -46,9 +46,10 @@ body{
 
 .navbar__links{
   height: 100%;
-  transition: transform .5s; ;
+  transition: transform .5s;
   color: #fff;
   display: flex;
+  /*transform: translate(100%);*/
   padding: 5px 5px 5px 5px;
   text-decoration: none;
 }
@@ -73,7 +74,7 @@ body{
 .navbar__link{
   color: #fff;
   text-decoration: none;
-  padding: 0 30px;
+  padding: 0 15px;
   display: flex;
   height: 100%;
   align-items: center;
@@ -117,14 +118,79 @@ body{
   align-items: center;
   padding: 0 15px;
   cursor: pointer;
+  display: none;
 }
 
 .navbar__img{
   display: block;
+  width: 36px;
 }
 
+@media (max-width: 768px){
+    .navbar__hamburger{
+      display: flex;
+    }
 
+    .navbar__item{
+      --clip:0;
+      overflow:hidden;
+    }
 
+    .navbar__item--active{
+      --transform: rotate(0);
+      --background: #5e7094;
+    }
+
+    .navbar__item--show{
+      background-color: var(--background);
+    }
+
+    .navbar__links{
+      position: fixed;
+      max-width: 400px;
+      width: 100%;
+      height: 80%;
+      top: 70px;
+      bottom: 0;
+      right: 0;
+      background-color: #000;
+      overflow-y:auto;
+      display: grid;
+      grid-auto-rows: max-content;
+    }
+
+    .navbar__links--show{
+      transform: unset;
+      width: 100%;
+    }
+
+    .navbar__link{
+      padding: 25px 0;
+      padding-left: 30px;
+      height: auto;
+    }
+
+    .navbar__arrow{
+      margin-left: auto;
+      margin-right: 20px;
+    }
+
+    .navbar__nesting{
+      display: grid;
+      position: unset;
+      width: 100%;
+      transform: translateY(0);
+      height: 0;
+      transition: height .3s;
+    }
+
+    .navbar__link--inside{
+      width: 90%;
+      margin-left: auto;
+      border-left: 1px solid #798499;
+    }
+
+}
 
 /* Estilos para el cuerpo */
 body {
