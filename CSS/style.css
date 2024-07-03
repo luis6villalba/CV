@@ -129,7 +129,7 @@ body{
   width: 36px;
 }
 
-@media (max-width: 768px){
+/*@media (max-width: 768px){
     .navbar__hamburger{
       display: flex;
     }
@@ -194,7 +194,7 @@ body{
       border-left: 1px solid #798499;
     }
 
-}
+}*/
 
 /* Estilos para el cuerpo */
 body {
