@@ -9,7 +9,7 @@
   <title>Portafolio 'CV'</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./CSS/style.css">
-  <link rel="stylesheet" href="./CSS/mobile.css" media="screen and (max-width: 678px)" />
+  <!--<link rel="stylesheet" href="./CSS/mobile.css" media="screen and (max-width: 678px)" />-->
   <link rel="stylesheet" href="./CSS/laptop.css" media="screen and (min-width: 1024px)" />
   <!--<script src="https://kit.fontawesome.com/7673818538.js" crossorigin="anonymous"></script>-->
 </head>
@@ -21,15 +21,15 @@
 
       <ul class="navbar__links">
         <li class="navbar__item">
-          <a href="#" class="navbar__link">Inicio<img src="pics/home_smile.svg" alt="Imagen de Home" class="navbar__img"></a>         
+          <a href="#section1" class="navbar__link">Inicio<img src="pics/home_smile.svg" alt="Imagen de Home" class="navbar__img"></a>         
         </li>
 
         <li class="navbar__item">         
-          <a href="#" class="navbar__link">Sobre mi<img src="pics/smile.svg" alt="Imagen de Home" class="navbar__img"></a>          
+          <a href="#section2" class="navbar__link">Sobre mi<img src="pics/smile.svg" alt="Imagen de Home" class="navbar__img"></a>          
         </li>
 
         <li class="navbar__item navbar__item--show">         
-          <a href="#" class="navbar__link">Proyectos<img src="pics/project.svg" alt="Imagen de Projects" class="navbar__img"><img src="pics/arrow.svg" alt="Imagen de arrow desplegable" class="navbar__arrow"></a>          
+          <a href="#section3" class="navbar__link">Proyectos<img src="pics/project.svg" alt="Imagen de Projects" class="navbar__img"><img src="pics/arrow.svg" alt="Imagen de arrow desplegable" class="navbar__arrow"></a>          
 
           <ul class="navbar__nesting">
             <li class="navbar__inside">
@@ -51,11 +51,11 @@
         </li>
 
         <li class="navbar__item">         
-          <a href="#" class="navbar__link">Habilidades<img src="pics/habilidad.svg" alt="Imagen de habilidades-tecnologia" class="navbar__img"></a>          
+          <a href="#section4" class="navbar__link">Habilidades<img src="pics/habilidad.svg" alt="Imagen de habilidades-tecnologia" class="navbar__img"></a>          
         </li>
 
         <li class="navbar__item">          
-          <a href="#" class="navbar__link">Contacto<img src="pics/contact.svg" alt="Imagen de Informacion de Contacto" class="navbar__img"></a>          
+          <a href="#section5" class="navbar__link">Contacto<img src="pics/contact.svg" alt="Imagen de Informacion de Contacto" class="navbar__img"></a>          
         </li>
       </ul>
 
@@ -66,25 +66,27 @@
     </section> 
   </nav>
   <!-- Seccion de inicio-->
-  <header>
-    <h1>"Luis Alejandro Villalba Diaz"</h1>
-    <h2>"Section Chief"</h2>
-    <img src="https://www.frikipandi.com/wp-content/uploads/2021/02/habilidades-tecnologia.jpg"
-      alt="Imagen de cabecera">
-      <div class="carousel">
-        <div class="carousel-item">
-            <a href="#section1"><img src="imagen1.jpg" alt="Imagen 1"></a>
-        </div>
-        <div class="carousel-item">
-            <a href="#section2"><img src="imagen2.jpg" alt="Imagen 2"></a>
-        </div>
-        <div class="carousel-item">
-            <a href="#section3"><img src="imagen3.jpg" alt="Imagen 3"></a>
-        </div>
+  <header id="section1">
+    <div class="carousel">
+      <div class="carousel-item">
+        <a href="#project1" class="carousel__link carousel__link--item"><img src="pics/gestion_tiempo.jpg" alt="Equipo de trabajo reunido organizando" class="carousel__img"></a>
       </div>
+      <div class="carousel-item">
+        <a href="#project2" class="carousel__link carousel__link--item"><img src="pics/HIA.jpg" alt="Herramientas de Inteligencia Artificial" class="carousel__img"></a>
+      </div>
+      <div class="carousel-item">
+        <a href="#project3" class="carousel__link carousel__link--item"><img src="pics/data science.jpg" alt="Data Science e IA" class="carousel__img"></a>
+      </div>
+      <div class="carousel-item">
+        <a href="#project4" class="carousel__link carousel__link--item"><img src="pics/machine learning.jpg" alt="machine learning" class="carousel__img"></a>
+      </div>
+      <div class="carousel-item">
+        <a href="#project5" class="carousel__link carousel__link--item"><img src="pics/spacex.jpg" alt="SPACE SHUTT TAKING OFF" class="carousel__img"></a>
+      </div>
+    </div>
   </header>
   <main>
-    <section>
+    <section id="section2">
       <h2>SOBRE MÍ</h2>
       <p>¡Hola! soy Luis Villalba, estudiante apasionado de Data Science e Inteligencia Artificial en Platzi, con más de
         20 años de experiencia en el desarrollo y manufactura de productos elaborados de metal n c p, actualmente lidero
@@ -101,7 +103,7 @@
           <!-- Agrega más enlaces a tus redes sociales aquí -->
         </ul>
     </section>
-    <section>
+    <section id="section3">
       <h2>PROYECTOS REALIZADOS</h2>
       <ul>
         <li><a href="https://1drv.ms/p/s!AgTkmWAoR4BHgZUA5VPxmivXMuXFfA?e=HDeM9I"><h2>Space Program</h2></a></li>
@@ -116,7 +118,7 @@
         <iframe src="https://assets.pinterest.com/ext/embed.html?id=486881409731300898" height="761" width="236" frameborder="0" scrolling="no" ></iframe>
       </ul>
     </section>
-    <section>
+    <section id="section4">
       <h2>HABILIDADES TECNICAS</h2>
       <ul>
         <li>GESTION DEL TIEMPO: "Productividad y Organizacion",   "Crear Habitos Positivos",   "Como dejar de Procrastinar",
@@ -134,7 +136,7 @@
 
       </ul>
     </section>
-    <section>
+    <section id="section5">
       <h2>INFORMACION DE CONTACTO</h2>
       <p>Si estás interesado en trabajar conmigo o en conocer más sobre mi trabajo, puedes contactarme a través de:</p>
       <ul>
@@ -151,6 +153,7 @@
 
   <!--<script src="main.js"></script>-->
   <script src="js/app.js"></script>">
+  <script src="script.js"></script>
 </body>
 
 </html>

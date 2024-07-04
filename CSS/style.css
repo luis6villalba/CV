@@ -129,7 +129,7 @@ body{
   width: 36px;
 }
 
-/*@media (max-width: 768px){
+@media (max-width: 768px){
     .navbar__hamburger{
       display: flex;
     }
@@ -194,64 +194,40 @@ body{
       border-left: 1px solid #798499;
     }
 
-}*/
+}
 
-/* Estilos para el cuerpo */
 body {
-  background: url(https://i.pinimg.com/564x/8c/b8/51/8cb851d260d5a412e55b67af28dc3fce.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  font-size: 19px;
-  line-height: 1.5;
-  color: #fff;
-}
-
-/* Estilos para dispositivos móviles */
-@media screen and (max-width: 480px) {
-  body {
-    font-size: 14px;
-  }
-
-  header {
-    padding: 15px;
-  }
-
-  h2 {
-    font-size: 22px;
-  }
-}
-
-header img {
-  width: 300px;
-  /* Cambiar el ancho de la imagen */
-  height: 200px;
-  /* Cambiar la altura de la imagen */
-  border-radius: 15%;
-  /* Agregar bordes redondos */
-}
-
-/* Estilo para el encabezado */
-header {
-  background-color: #222;
-  color: #fff;
-  text-align: center;
-  padding: 22px;
-}
-
-header ul {
-  list-style-type: none;
+  font-family: Open Sans, Helvetica Neue, sans-serif;
+  margin: 0;
   padding: 0;
-  margin: 10;
-  font-size: 23px;
 }
 
-/* Estilos para los elementos de lista */
-header li {
-  display: inline;
-  margin-right: 20 px;
+header {
+  position: relative;
+  width: 100vw;
+  height: auto;
+  overflow: hidden;
 }
+
+.carousel {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+.carousel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 70%;
+  display: block;
+}
+
+
+
+
 
 /* Estilos generales para los encabezados de seccion */
 .encabezado-seccion {
