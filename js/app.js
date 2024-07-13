@@ -55,7 +55,7 @@
 })();
 
 let currentIndex = 0;
-const items = document.querySelectorAll('.carousel-item');
+const items = document.querySelectorAll('.carousel__item');
 const totalItems = items.length;
 
 function showNextItem() {

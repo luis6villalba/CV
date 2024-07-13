@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 
@@ -9,6 +8,7 @@
   <title>Portafolio 'CV'</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" href="./CSS/tablet.css" media="screen and (max-width: 768px)" />
   <!--<link rel="stylesheet" href="./CSS/mobile.css" media="screen and (max-width: 678px)" />-->
   <link rel="stylesheet" href="./CSS/laptop.css" media="screen and (min-width: 1024px)" />
   <!--<script src="https://kit.fontawesome.com/7673818538.js" crossorigin="anonymous"></script>-->
@@ -68,22 +68,22 @@
   <!-- Seccion de inicio-->
   <header id="section1">
     <div class="carousel">
-      <div class="carousel-item">
+      <div class="carousel__item">
         <a href="#project1" class="carousel__link carousel__link--item"><img src="pics/Página 1.jpeg" alt="Equipo de trabajo reunido organizando" class="carousel__img"></a>
       </div>
-      <div class="carousel-item">
+      <div class="carousel__item">
         <a href="#project2" class="carousel__link carousel__link--item"><img src="pics/Página 2.jpeg" alt="Herramientas de Inteligencia Artificial" class="carousel__img"></a>
       </div>
-      <div class="carousel-item">
+      <div class="carousel__item">
         <a href="#project3" class="carousel__link carousel__link--item"><img src="pics/Página 3.jpeg" alt="Data Science e IA" class="carousel__img"></a>
       </div>
-      <div class="carousel-item">
+      <div class="carousel__item">
         <a href="#project4" class="carousel__link carousel__link--item"><img src="pics/Página 4.jpeg" alt="machine learning" class="carousel__img"></a>
       </div>
-      <div class="carousel-item">
+      <div class="carousel__item">
         <a href="#project5" class="carousel__link carousel__link--item"><img src="pics/Página 5.jpeg" alt="SPACE SHUTT TAKING OFF" class="carousel__img"></a>
       </div>
-      <div class="carousel-item">
+      <div class="carousel__item">
         <a href="#project5" class="carousel__link carousel__link--item"><img src="pics/Página 6.jpeg" alt="SPACE SHUTT TAKING OFF" class="carousel__img"></a>
       </div>
     </div>
@@ -94,24 +94,22 @@
   </header>
   <main>
     <section id="section2">
-      <h2>SOBRE MÍ</h2>
-      <p>¡Hola! soy Luis Villalba, estudiante apasionado de Data Science e Inteligencia Artificial en Platzi, con más de
-        20 años de experiencia en el desarrollo y manufactura de productos elaborados de metal n c p, actualmente lidero
-        como "Section Chief" la planta de producción de Serviprocesos Industriales. Además, soy un entusiasta del
-        espacio y las estrellas, y disfruto creando proyectos tecnológicos y artísticos que desafían los límites de la
-        creatividad y la innovación. Con mi experiencia en el campo de la producción y mis habilidades en tecnología,
-        estoy comprometido a aportar soluciones efectivas y eficientes a cualquier desafío que se me presente. ¡Vamos a
-        hacer algo grandioso juntos!</p>
-        <ul>
-          <!-- Enlaces a redes sociales -->
-          <li><a href="https://www.linkedin.com/in/luis-alejandro-villalba-diazba-diaz-58235ab3">LinkedIn</a></li>
-          <li><a href="https://twitter.com/luisale33610733">Twitter</a></li>
-          <li><a href="https://github.com/luis6villalba">GitHub</a></li>
+      <br><i><h3 class="section2__tittle section2__tittle--h3">SOBRE MÍ</h3></i><br>
+      <p class="section2__p section2__p--text">¡Hola! soy Luis Villalba, estudiante apasionado de Data Science e Inteligencia Artificial en Platzi, con más de 20 años de experiencia en el desarrollo y manufactura de productos elaborados de metal n c p, actualmente lidero como "Section Chief" la planta de producción de Serviprocesos Industriales. Además, soy un entusiasta del espacio y las estrellas, y disfruto creando proyectos tecnológicos y artísticos que desafían los límites de la creatividad y la innovación. Con mi experiencia en el campo de la producción y mis habilidades en tecnología, estoy comprometido a aportar soluciones efectivas y eficientes a cualquier desafío que se me presente. ¡Vamos a hacer algo grandioso juntos!</p><br>
+      
+      <!-- Enlaces a redes sociales -->
+      <div class="section2__img-container">
+        <ul class="social__red">
+          <li><a href="https://www.linkedin.com/in/luis-alejandro-villalba-diazba-diaz-58235ab3"><img src="pics/LinkedIn.svg" alt="logo LinkedIn" class="social__red--img"></a></li>
+          <li><a href="https://twitter.com/luisale33610733"><img src="pics/twitter.svg" alt="logo twitter" class="social__red--img"></a></li>
+          <li><a href="https://github.com/luis6villalba"><img src="pics/github.svg" alt="logo github" class="social__red--img"></a></li>
           <!-- Agrega más enlaces a tus redes sociales aquí -->
         </ul>
+      </div> 
+
     </section>
     <section id="section3">
-      <h2>PROYECTOS REALIZADOS</h2>
+      <br><i><h3 class="section2__tittle section2__tittle--h3">PROYECTOS REALIZADOS</h3></i><br>
       <ul>
         <li><a href="https://1drv.ms/p/s!AgTkmWAoR4BHgZUA5VPxmivXMuXFfA?e=HDeM9I"><h2>Space Program</h2></a></li>
         <iframe src="https://assets.pinterest.com/ext/embed.html?id=919649186396535645" height="434" width="236" frameborder="0" scrolling="no" ></iframe>        
@@ -126,7 +124,7 @@
       </ul>
     </section>
     <section id="section4">
-      <h2>HABILIDADES TECNICAS</h2>
+      <h3>HABILIDADES TECNICAS</h3>
       <ul>
         <li>GESTION DEL TIEMPO: "Productividad y Organizacion",   "Crear Habitos Positivos",   "Como dejar de Procrastinar",
           "Manejo de Bullet Journal",   "Gestion Efectiva del Tiempo",   "Manejo de Emociones para la Productividad y la
@@ -144,7 +142,7 @@
       </ul>
     </section>
     <section id="section5">
-      <h2>INFORMACION DE CONTACTO</h2>
+      <h3>INFORMACION DE CONTACTO</h3>
       <p>Si estás interesado en trabajar conmigo o en conocer más sobre mi trabajo, puedes contactarme a través de:</p>
       <ul>
         <li>Teléfono: Cel. 319 680 4913</li>
