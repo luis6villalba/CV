@@ -360,11 +360,56 @@ header {
   color: #fff;
 }
 
+.contenido-temas {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
 
+.glosario {
+  width: 300px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  -webkit-box-shadow: 7px 10px 17px 5px rgba(0, 0, 0, 0.54);
+  -moz-box-shadow: 7px 10px 17px 5px rgba(0, 0, 0, 0.54);
+  box-shadow: 7px 10px 17px 5px rgba(0, 0, 0, 0.54);
+}
 
+.imagen-tema {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.imagen-tema .iframe {
+  width: 90%;
+  height: auto;
+  margin-bottom: 0.5px;
+  padding-top: 15px;
+}
 
+.glosario .titulo-tema {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-family: Open Sans, Helvetica Neue, sans-serif;
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
 
+.glosario .titulo-tema-descripcion {
+  font-size: 1.6rem;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  margin-bottom: 25px;
+}
 
 
 .body__container{
