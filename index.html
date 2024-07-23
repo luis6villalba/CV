@@ -8,11 +8,11 @@
   <title>Portafolio 'CV'</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./CSS/style.css">
-  <link rel="stylesheet" href="./CSS/tablet.css" media="screen and (max-width: 768px)" />
+  <link rel="stylesheet" href="./CSS/tablet.css" media="screen and (min-width: 769px)" />
   <link rel="stylesheet" href="./CSS/laptop.css" media="screen and (min-width: 1024px)" />
 </head>
 
-<body>
+<body class="body__container">
   <nav class="navbar"
     <section class="navbar__container">
       <a href="#sobre-mi" class="sobre__mi sobre__mi--link"><h4 class="navbar__logo">Luis A. Villalba</h4></a>
@@ -60,38 +60,37 @@
       <div class="navbar__hamburger">
         <img src="pics/menu.svg" alt="Icono de menu" class="navbar__img">
       </div>
-
     </section> 
   </nav>
-  <header id="section1">
-    <section class="header-section">
-      <div class="carousel">
-        <div class="carousel__item">
-          <a href="#project1" class="carousel__link carousel__link--item"><img src="pics/Página 1.jpeg" alt="Equipo de trabajo reunido organizando" class="carousel__img"></a>
-        </div>
-        <div class="carousel__item">
-          <a href="#project2" class="carousel__link carousel__link--item"><img src="pics/Página 2.jpeg" alt="Herramientas de Inteligencia Artificial" class="carousel__img"></a>
-        </div>
-        <div class="carousel__item">
-          <a href="#project3" class="carousel__link carousel__link--item"><img src="pics/Página 3.jpeg" alt="Data Science e IA" class="carousel__img"></a>
-        </div>
-        <div class="carousel__item">
-          <a href="#project4" class="carousel__link carousel__link--item"><img src="pics/Página 4.jpeg" alt="machine learning" class="carousel__img"></a>
-        </div>
-        <div class="carousel__item">
-          <a href="#project5" class="carousel__link carousel__link--item"><img src="pics/Página 5.jpeg" alt="SPACE SHUTT TAKING OFF" class="carousel__img"></a>
-        </div>
-        <div class="carousel__item">
-          <a href="#project5" class="carousel__link carousel__link--item"><img src="pics/Página 6.jpeg" alt="SPACE SHUTT TAKING OFF" class="carousel__img"></a>
-        </div>
-      </div>
-      <div class="carousel__controls">
-        <b class="carousel__arrow carousel__arrow--prev"><img src="pics/left_arrow.svg" alt="Imagen de flecha izquierda" class="carousel__img"></b>
-        <b class="carousel__arrow carousel__arrow--next"><img src="pics/right_arrow.svg" alt="Imagen de flecha derecha" class="carousel__img"></b>
-      </div>
-    </section>  
-  </header>
   <main class="main">
+    <header id="section1">
+      <section class="header-section">
+        <div class="carousel">
+          <div class="carousel__item">
+            <a href="#project1" class="carousel__link carousel__link--item"><img src="pics/Página 1.jpeg" alt="Equipo de trabajo reunido organizando" class="carousel__img"></a>
+          </div>
+          <div class="carousel__item">
+            <a href="#project2" class="carousel__link carousel__link--item"><img src="pics/Página 2.jpeg" alt="Herramientas de Inteligencia Artificial" class="carousel__img"></a>
+          </div>
+          <div class="carousel__item">
+            <a href="#project3" class="carousel__link carousel__link--item"><img src="pics/Página 3.jpeg" alt="Data Science e IA" class="carousel__img"></a>
+          </div>
+          <div class="carousel__item">
+            <a href="#project4" class="carousel__link carousel__link--item"><img src="pics/Página 4.jpeg" alt="machine learning" class="carousel__img"></a>
+          </div>
+          <div class="carousel__item">
+            <a href="#project5" class="carousel__link carousel__link--item"><img src="pics/Página 5.jpeg" alt="SPACE SHUTT TAKING OFF" class="carousel__img"></a>
+          </div>
+          <div class="carousel__item">
+            <a href="#project5" class="carousel__link carousel__link--item"><img src="pics/Página 6.jpeg" alt="SPACE SHUTT TAKING OFF" class="carousel__img"></a>
+          </div>
+        </div>
+        <div class="carousel__controls">
+          <b class="carousel__arrow carousel__arrow--prev"><img src="pics/left_arrow.svg" alt="Imagen de flecha izquierda" class="carousel__img"></b>
+          <b class="carousel__arrow carousel__arrow--next"><img src="pics/right_arrow.svg" alt="Imagen de flecha derecha" class="carousel__img"></b>
+        </div>
+      </section>  
+    </header>  
     <section id="section2" class="section-two">
       <di  class="main__section">
         <br><i><b><h3 id="sobre-mi" class="tittle tittle-main">SOBRE MÍ</h3></b></i><br>
@@ -181,8 +180,8 @@
       <p>&copy; - 2023    Luis A. Villalba </p>
     </footer>
 
-    <!--<script src="main.js"></script>-->
-    <script src="js/app.js"></script>
+  <!--<script src="main.js"></script>-->
+  <script src="js/app.js"></script>
   <!--<script src="script.js"></script>-->
 </body>
 

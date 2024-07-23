@@ -1,0 +1,28 @@
+ .section-two {
+    width: 34%;
+    order: 1;
+}
+
+#section1 {
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    order: 2;
+}
+
+.section-three {
+    width: 100%;
+    order: 3;
+}
+
+#section4 {
+    width: 100%;
+    order: 4;
+}
+
+#section5 {
+    width: 100%;
+    order: 5; 
+}
