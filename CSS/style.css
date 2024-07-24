@@ -12,6 +12,13 @@ body{
   overflow-x: hidden;
   font-family: Open Sans, Helvetica Neue, sans-serif;
   font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .body__container {
@@ -201,18 +208,6 @@ body{
       margin-left: auto;
       border-left: 1px solid #798499;
     }
-}
-
-body {
-  font-family: Open Sans, Helvetica Neue, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.main {
-  top: 30px;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 header {
